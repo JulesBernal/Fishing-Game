@@ -1,0 +1,217 @@
+{
+  "common": [
+    {
+      "fishId": 1,
+      "fishName": "Tuna",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["White", "Yellow", "Blue"],
+      "fishRNG": 1
+    },
+    {
+      "fishId": 2,
+      "fishName": "Crappie",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 1
+    },
+    {
+      "fishId": 3,
+      "fishName": "Bluegill",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 1
+    },
+    {
+      "fishId": 4,
+      "fishName": "Yellow Perch",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 1
+    },
+    {
+      "fishId": 5,
+      "fishName": "Bass",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 1
+    }
+  ],
+  "rare": [
+    {
+      "fishId": 6,
+      "fishName": "Catfish",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 2
+    },
+    {
+      "fishId": 7,
+      "fishName": "Pike",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 2
+    },
+    {
+      "fishId": 8,
+      "fishName": "Trout",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Brown", "Rainbow"],
+      "fishRNG": 2
+    },
+    {
+      "fishId": 9,
+      "fishName": "Salmon",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Pink", "Red"],
+      "fishRNG": 2
+    },
+    {
+      "fishId": 10,
+      "fishName": "Carp",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 2
+    }
+  ],
+  "epic": [
+    {
+      "fishId": 11,
+      "fishName": "Sturgeon",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 12,
+      "fishName": "Albacore",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 13,
+      "fishName": "Albacore",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Red"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 14,
+      "fishName": "Yellowtail",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 15,
+      "fishName": "Spearfish",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 16,
+      "fishName": "Marlin",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow", "Black"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 17,
+      "fishName": "Swordfish",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 18,
+      "fishName": "Mahimahi",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 19,
+      "fishName": "Shark",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 20,
+      "fishName": "Dolphin",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 21,
+      "fishName": "Squid",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    },
+    {
+      "fishId": 22,
+      "fishName": "Octopus",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": 10.0,
+      "fishMaxLength": 20.0,
+      "fishColor": ["Yellow"],
+      "fishRNG": 3
+    }
+  ],
+  "void":[
+    {
+      "fishId": null,
+      "fishName": "Aza",
+      "fishStory": "Once a upon a time...",
+      "fishMinLength": null,
+      "fishMaxLength": null,
+      "fishColor": ["black"],
+      "fishRNG": 999
+    }
+  ]
+}
