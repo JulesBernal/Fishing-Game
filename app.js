@@ -1,11 +1,13 @@
 const fs = require("fs");
 var fishData = JSON.parse(fs.readFileSync("./fish.json"));
 
-const maxVal = 100,
-  minVal = 0;
+const MAXVAL = 100,
+  MINVAL = 0;
 
-function mathFunc(mod = 0, max = maxVal, min = minVal) {
-  //
+//function to run probability from a Max value to a Min Value
+//Accept a modifier, to change if the value is rounded using
+//Math.floor, or toFixed to a value.
+function mathFunc(mod = 0, max = MAXVAL, min = MINVAL) {
   if (max > 0 && mod == "round") {
     return Math.floor(Math.random() * (max - min) + min);
   } else if (max > 0 && typeof max == "number" && mod != 2) {
@@ -21,7 +23,7 @@ function rarityRoll(x) {
     rare = 80,
     epic = 95,
     secretRare = 98;
-  if (x < commonVal && x > minVal) {
+  if (x < commonVal && x > MINVAL) {
     return "common";
   } else if (commonVal < x && x < rare) {
     return "rare";
