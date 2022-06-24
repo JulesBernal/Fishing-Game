@@ -1,0 +1,25 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulesBernal/Fishing-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulesBernal/Fishing-Game/issues"
+  },
+  "homepage": "https://github.com/JulesBernal/Fishing-Game#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "phaser": "^3.55.2"
+  }
+}
