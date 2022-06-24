@@ -1,7 +1,7 @@
 //import fs from "fs";
 
-import Phaser from 'phaser';
-import * as fs from 'fs';
+// import {Phaser} from 'phaser';
+import fs from 'fs';
 // const fs = require("fs");
 const FISH_DATA = JSON.parse(fs.readFileSync("./fish.json"));
 
