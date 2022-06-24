@@ -7,9 +7,9 @@ const FISH_DATA = JSON.parse(fs.readFileSync("./fish.json"));
 
 const MAX_VAL = 100,
   MIN_VAL = 0;
-const canvas=document.getElementById("canvaGame");
-const ctx = canvas.getContext("2d");
-ctx.font="10px Arial";
+// const canvas=document.getElementById("canvaGame");
+// const ctx = canvas.getContext("2d");
+// ctx.font="10px Arial";
 //function to run probability from a Max value to a Min Value
 //Accept a modifier, to change if the value is rounded using
 //Math.floor, or toFixed to a value.
@@ -83,20 +83,20 @@ console.log(fishRNG());
 
 
 
-const config = {
-  width: 800,
-  height: 600,
-  type: Phaser.AUTO,
-  audio: {
-    disableWebAudio: true
-  },
-  physics: {
-    default: 'arcade',
-    arcade: {
-      fps: 60,
-      gravity: {y : 0},
-    }
-  },
-};
+// const config = {
+//   width: 800,
+//   height: 600,
+//   type: Phaser.AUTO,
+//   audio: {
+//     disableWebAudio: true
+//   },
+//   physics: {
+//     default: 'arcade',
+//     arcade: {
+//       fps: 60,
+//       gravity: {y : 0},
+//     }
+//   },
+// };
 
-const game = new Phaser.Game(config);
+// const game = new Phaser.Game(config);
