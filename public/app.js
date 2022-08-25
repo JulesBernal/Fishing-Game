@@ -1,15 +1,19 @@
-//import fs from "fs";
 
-// import {Phaser} from 'phaser';
-import fs from 'fs';
-// const fs = require("fs");
-const FISH_DATA = JSON.parse(fs.readFileSync("./fish.json"));
+
+const Phaser= require('phaser');
+// import fs from 'fs';
+const fs = require("fs");
+
+const FISH_DATA = (require(("./fish.json")));
+// const FISH_DATA = JSON.parse(fs.readFileSync("./fish.json"));
+//fs replce with api call, to serverjs for the fish data.
+//don't need above line 6
 
 const MAX_VAL = 100,
   MIN_VAL = 0;
-// const canvas=document.getElementById("canvaGame");
-// const ctx = canvas.getContext("2d");
-// ctx.font="10px Arial";
+const canvas=document.getElementById("canvaGame");
+const ctx = canvas.getContext("2d");
+ctx.font="10px Arial";
 //function to run probability from a Max value to a Min Value
 //Accept a modifier, to change if the value is rounded using
 //Math.floor, or toFixed to a value.
@@ -73,30 +77,30 @@ function fishRNG() {
     rolledFish.fishMinWeight
   );
   return `${secretString}You caught a ${fishColorWay} ${rolledFish.fishName}! 
-It is ${fishLength} inches long and ${fishWeight} lbs!
+ It is ${fishLength} inches long and ${fishWeight} lbs!
 ${rolledFish.fishStory}`;
 }
-console.log(fishRNG());
-// ctx.fillText(fishRNG(),200,200);
+// console.log(fishRNG());
+ctx.fillText(fishRNG(),70,200);
 
-// ctx.fillText("cats",200,200);
+ctx.fillText('Fish!',70,300);
 
 
 
-// const config = {
-//   width: 800,
-//   height: 600,
-//   type: Phaser.AUTO,
-//   audio: {
-//     disableWebAudio: true
-//   },
-//   physics: {
-//     default: 'arcade',
-//     arcade: {
-//       fps: 60,
-//       gravity: {y : 0},
-//     }
-//   },
-// };
+const config = {
+  width: 800,
+  height: 600,
+  type: Phaser.AUTO,
+  audio: {
+    disableWebAudio: true
+  },
+  physics: {
+    default: 'arcade',
+    arcade: {
+      fps: 60,
+      gravity: {y : 0},
+    }
+  },
+};
 
-// const game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
