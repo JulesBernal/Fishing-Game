@@ -76,7 +76,7 @@ function fishRNG() {
     rolledFish.fishMaxWeight,
     rolledFish.fishMinWeight
   );
-  return { "string":`${secretString}You caught a ${fishColorWay} ${rolledFish.fishName}! 
+  return { "fishyfishyfish":`${secretString}You caught a ${fishColorWay} ${rolledFish.fishName}! 
  It is ${fishLength} inches long and ${fishWeight} lbs!
  ${rolledFish.fishStory}`};
 }
